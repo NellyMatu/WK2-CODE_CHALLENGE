@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE4F7PNo7U9ciKloH9-IDkfYVPRPqge5YkOmsGQ6iluUHSyLSr_OUzKKIyFqTWdYPJDGA&usqp=CAU);
+    display: flex;
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 0;
+
+}
+
+
+.container {
+    background-color: magenta;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(55, 200, 53, 0.1);
+    padding: 30px;
+    width: 1000px;
+    margin: 60px;
+    margin-bottom: -500px;
+    
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid cornsilk;
+    border-radius: 12px;
+    margin-right: 8px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(221, 74, 21);
+    color: cornsilk;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.clear-btn {
+    background-color: #dc3545;
+    margin-top: 10px;
+}
+
+.clear-btn:hover {
+    background-color: #c82333;
+}
+
+#shoppingList {
+    font-weight: 800px;
+        list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#shoppingList li {
+    padding: 10px;
+    border: 1px solid cornsilk;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: cornsilk;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#shoppingList li.purchased {
+    text-decoration: line-through;
+    background-color: #e9ecef;
+}
+
+#shoppingList li input[type="checkbox"] {
+    cursor: pointer;
+}
+
+#shoppingList li label {
+    flex: 1;
+    margin-left: 10px;
+    cursor: text;
+    outline: none;
+}
+
+#shoppingList li button {
+    background-color: #1b4927;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+#shoppingList li button:hover {
+    background-color: #11940d58;
+}
